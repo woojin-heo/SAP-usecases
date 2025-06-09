@@ -1,0 +1,57 @@
+[
+    {
+        "model": "gpt-4", 
+        "name": "Azure OpenAI GPT-4 8k", 
+        "desc": "GPT-4 is a large multimodal model (accepting text or image inputs and outputting text) that can solve difficult problems with greater accuracy than any of our previous models, thanks to its broader general knowledge and advanced reasoning capabilities.", 
+        "platform": "SAP Generative AI Hub",
+        "maxToken": 16000,
+        "streaming": true,
+        "hasImage": false,
+        "restricted": false,
+        "active": true
+    },
+    {
+        "model": "gpt-4o", 
+        "name": "Azure OpenAI GPT-4o", 
+        "desc": "OpenAI's fast and efficient AI model, optimized for quick responses while maintaining high quality. Ideal for real-time conversations and tasks requiring both speed and intelligence.", 
+        "platform": "SAP Generative AI Hub",
+        "maxToken": 16000,
+        "streaming": true,
+        "hasImage": false,
+        "restricted": false,
+        "active": true
+    },
+    {
+        "model": "gpt-4-32k", 
+        "name": "Azure OpenAI GPT-4 32k", 
+        "desc": "GPT-4 is a large multimodal model (accepting text or image inputs and outputting text) that can solve difficult problems with greater accuracy than any of our previous models, thanks to its broader general knowledge and advanced reasoning capabilities.", 
+        "platform": "SAP Generative AI Hub",
+        "maxToken": 16000,
+        "streaming": true,
+        "hasImage": false,
+        "restricted": false,
+        "active": false
+    },
+    {
+        "model": "mistralai--mixtral-8x7b-instruct-v01", 
+        "name": "Mistral AI 8x7b", 
+        "desc": "The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts. The Mixtral-8x7B outperforms Llama 2 70B on most benchmarks tested.", 
+        "platform": "SAP Generative AI Hub",
+        "maxToken": 16000,
+        "streaming": true,
+        "hasImage": false,
+        "restricted": false,
+        "active": true
+    },
+    {
+        "model": "gemini-1.0-pro", 
+        "name": "Gemini Pro 1.0", 
+        "desc": "Google's model scaling across a wide range of tasks.", 
+        "platform": "SAP Generative AI Hub",
+        "maxToken": 16000,
+        "streaming": true,
+        "hasImage": false,
+        "restricted": false,
+        "active": false
+    }
+]
