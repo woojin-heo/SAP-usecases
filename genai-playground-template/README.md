@@ -4,7 +4,7 @@
 
 Welcome to the AI Playground Template project! This project is designed to provide a template for building a conversational AI interface using Gradio, LangChain, and SAP Generative AI Hub. It includes the ability to upload documents, embed them into SAP HANA Cloud Vector Store Engine, and use a Retrieve-Augment-Generate (RAG) approach for question-answering tasks.
 
-![Image of the Generative AI Playground](./img/solution_screen.png "Image of the Generative AI Playground")
+![Image of the Generative AI Playground](./docs/img/solution_screen.png "Image of the Generative AI Playground")
 
 ### Features
 
@@ -79,14 +79,14 @@ The Gradio interface will be available at `http://localhost:51040` (or the host 
 To deploy the playground within your company, you use a runtime like Cloud Foundry or Kyma and secure it like any other application. For Kyma there is a [detailed blog which I've written](https://www.linkedin.com/pulse/sap-btp-kyma-authentication-authorization-autoscaling-gunter-albrecht-wrbic/) that considers authenticaton and authorization as well as scaling up/down based on load.
 
 ### Documentation
-**Need help with setup?** → [Detailed Setup Guide](./documentation/SETUP_GUIDE.md)
-
-The setup guide covers:
-- SAP BTP configuration
-- Environment variables setup
-- Docker deployment
-- Kyma deployment
-- Troubleshooting common issues
+- [Detailed Setup Guide](./documentation/SETUP_GUIDE.md)
+    - SAP BTP configuration
+    - Environment variables setup
+    - Docker deployment
+    - Kyma deployment
+    - Troubleshooting common issues
+- [Architecture diagram](./docs/Architecture_Diagram.png)
+- [Demo Video with usecase]()
 
 ### Contributing
 

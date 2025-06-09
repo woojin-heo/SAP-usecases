@@ -27,7 +27,7 @@ SAP AI Core serves as the foundation for Generative AI Hub access.
 **Credential Mapping:**
 After provisioning, you'll receive credentials like this:
 
-![AI Core Credentials](../img/ai_core_credential.png)
+![AI Core Credentials](./img/ai_core_credential.png)
 
 Map these to your `.env` file:
 - `AICORE_CLIENT_ID` ← `clientid`
@@ -46,7 +46,7 @@ Configure the Generative AI Hub to deploy and manage LLM models.
 **Model Configuration:**
 After deployment, find your models in SAP AI Launchpad:
 
-![LLM Deployments](../img/LLM_deployment.png)
+![LLM Deployments](./img/LLM_deployment.png)
 
 1. Navigate to **ML Operations > Deployments**
 2. Locate your deployed LLM models (e.g. `anthropic-claude-3-opus`,`gpt-4o`)
@@ -91,7 +91,7 @@ The vector store table is automatically created and managed by the service - no 
 - `VEC_META`: Metadata and source document references  
 - `VEC_Vector`: High-dimensional vector embeddings
 
-![Vector Table Example](../img/vector_table_example.png)
+![Vector Table Example](./img/vector_table_example.png)
 ___
 # Local Installation
 
@@ -173,10 +173,10 @@ Once your Docker image is ready, deploy it on Kyma.
 
 1. **Create Namespace** in Kyma Dashboard. 
 Namespace provide isolated environments for different applications or teams within the same Kyma cluster.
-    ![alt text](../img/namespace.png)
+    ![alt text](./img/namespace.png)
 2. **Configure Secrets:**
    Instead of `.env` file, create Kyma secrets with your environment variables.   
-   ![Kyma Secret Configuration](../img/kyma_secret.png)
+   ![Kyma Secret Configuration](./img/kyma_secret.png)
 
 3. **Create Deployment YAML**:
    Create a deployment configuration file (`deployment.yaml`) with the following structure:
@@ -269,11 +269,11 @@ Namespace provide isolated environments for different applications or teams with
 
 4. **Deploy Application:**
    Upload your deployment YAML to the namespace
-   ![Kyma Deployment](../img/deployment_yaml.png)
+   ![Kyma Deployment](./img/deployment_yaml.png)
 
 5. **Create API Rule:**
    Configure external access to your application
-      ![Create API Rule](../img/create_api_rule.png)
+      ![Create API Rule](./img/create_api_rule.png)
    **Required HTTP Methods for Gradio:**
    - `GET`: Load the web interface, static assets (CSS, JS, images)
    - `POST`: Submit chat messages, upload documents, API calls
@@ -287,8 +287,8 @@ ___
 1. Navigate to your deployment in Kyma Dashboard
 2. Click on **View Logs**
 
-![Kyma Error Log](../img/kyma_errorlog.png)
-![Kyma Error Log Detail](../img/kyma_errorlog_detail.png)
+![Kyma Error Log](./img/kyma_errorlog.png)
+![Kyma Error Log Detail](./img/kyma_errorlog_detail.png)
 
 ### Common Issues
 
