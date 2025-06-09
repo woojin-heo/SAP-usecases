@@ -90,7 +90,7 @@ To deploy the playground within your company, you use a runtime like Cloud Found
     - Kyma deployment
     - Troubleshooting common issues
 - [Architecture diagram](./docs/Architecture_Diagram.png)
-- [Demo Video with usecase]()
+- [Demo Video with usecase](https://youtu.be/qtxhrcEYhGU)
 
 ### Contributing
 
