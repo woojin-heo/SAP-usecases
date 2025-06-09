@@ -4,7 +4,7 @@
 
 Welcome to the AI Playground Template project! This project is designed to provide a template for building a conversational AI interface using Gradio, LangChain, and SAP Generative AI Hub. It includes the ability to upload documents, embed them into SAP HANA Cloud Vector Store Engine, and use a Retrieve-Augment-Generate (RAG) approach for question-answering tasks.
 
-![Image of the Generative AI Playground](./documentation/solution_screen.png "Image of the Generative AI Playground")
+![Image of the Generative AI Playground](./img/solution_screen.png "Image of the Generative AI Playground")
 
 ### Features
 
