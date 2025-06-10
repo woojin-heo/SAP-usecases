@@ -82,6 +82,12 @@ The Gradio interface will be available at `http://localhost:51040` (or the host 
 ### Deployment on SAP BTP
 To deploy the playground within your company, you use a runtime like Cloud Foundry or Kyma and secure it like any other application. For Kyma there is a [detailed blog](https://www.linkedin.com/pulse/sap-btp-kyma-authentication-authorization-autoscaling-gunter-albrecht-wrbic/) that considers authenticaton and authorization as well as scaling up/down based on load.
 
+### Architecture Diagram
+![Architecture diagram](./docs/Architecture_Diagram.png)
+
+### Demo Video with Usecase
+[![Watch the video](https://img.youtube.com/vi/qtxhrcEYhGU/maxresdefault.jpg)](https://youtu.be/qtxhrcEYhGU)
+
 ### Documentation
 - [Detailed Setup Guide](./docs/SETUP_GUIDE.md)
     - SAP BTP configuration
