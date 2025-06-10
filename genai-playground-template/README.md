@@ -80,7 +80,7 @@ The Gradio interface will be available at `http://localhost:51040` (or the host 
 - `deployment.yaml`: Kyma(Kubernetes) deployment config.
 
 ### Deployment on SAP BTP
-To deploy the playground within your company, you use a runtime like Cloud Foundry or Kyma and secure it like any other application. For Kyma there is a [detailed blog which I've written](https://www.linkedin.com/pulse/sap-btp-kyma-authentication-authorization-autoscaling-gunter-albrecht-wrbic/) that considers authenticaton and authorization as well as scaling up/down based on load.
+To deploy the playground within your company, you use a runtime like Cloud Foundry or Kyma and secure it like any other application. For Kyma there is a [detailed blog](https://www.linkedin.com/pulse/sap-btp-kyma-authentication-authorization-autoscaling-gunter-albrecht-wrbic/) that considers authenticaton and authorization as well as scaling up/down based on load.
 
 ### Documentation
 - [Detailed Setup Guide](./docs/SETUP_GUIDE.md)
